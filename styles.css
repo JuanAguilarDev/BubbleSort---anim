@@ -9,33 +9,51 @@ a{
     text-decoration: none;
 }
 
-#nav_logo{
-    position: absolute;
-    right: 50px;
-    top: -15px;
+#name{
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
 }
 
 .navbar{
-    background: #D3CCE3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #D3CCE3, #E9E4F0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #00B4DB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00B4DB, #0083B0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00B4DB, #0083B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 }
 
 #nav_text{
     padding-top: 10px;
     font-size: 30px;
     font-weight: bold;
+    color: #000;
+}
+
+#buttons-container{
+    position: relative;
+    bottom: -230px;
+    left: -5px;
+}
+
+#arr {
+    font-weight: bolder;
+    color: #000 !important;
 }
 
 .info{
     height: 460px;
-    background: #D3CCE3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #D3CCE3, #E9E4F0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background: #00B4DB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00B4DB, #0083B0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00B4DB, #0083B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 }
 
 #send{
     height: 60px;
     font-weight: bold;
+}
+
+#array_show{
+    background-color: #fff;
+    border-radius: 20px;
+    height: 300px;
+    
 }

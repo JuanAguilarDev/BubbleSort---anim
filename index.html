@@ -16,17 +16,17 @@
     <link rel="icon" href="./media/img/icon.png">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <nav class="navbar ">
-        <div class="container-fluid row justify-content-between ">
-            <div class='col-4'>
+        <div class="container-fluid row justify-content-center ">
+            <div class='col-12 text-center'>
                 <p id="nav_text">BubbleSort - <span id="anim">animation</span></p>    
             </div>
-            <div class='col-4'>
+            <div class='col-12 text-center'>
                 <a target="_blank" href="https://github.com/JuanAguilarDev" class="navbar-brand" >
-                <img id="nav_logo" src="./media/img/logo.png" alt="" width="120" height="124" class="d-inline-block align-text-top"/>
+                <span id="name" >JuanDEV</span>
                 </a>
             </div>
         </div>
@@ -34,10 +34,11 @@
 
     <div class='info mt-4'>
         <div class="container p-4">
-            <form class="row justify-content-between needs-validation" >
+            <div class="row justify-content-between" >
                 <div class="col-5">
-                    <label for="size" class="form-label">Array size</label>
-                    <select id="size" class="form-select" aria-label="Default select example">
+                    <label id="arr" class="form-label">Array size</label>
+                    <select id="select" class="form-select" aria-label="Default select example">
+                        <option selected>Selecciona uno. </option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
@@ -47,12 +48,30 @@
                         <option value="8">8</option>
                         <option value="9">9</option>
                         <option value="10">10</option>
-                      </select>
+                    </select>
                 </div>
                 <div class="col-5 pt-3">
                     <input type="button" id="send" class="btn btn-primary form-control" value="Aceptar"/>
                 </div>
-            </form>
+            </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-8" id="array_show">
+                    <ul id="array_elements">
+                        
+                    </ul>
+                    <!-- Buttons -->
+                    <div class="container" id="buttons-container">
+                        <div class="row justify-content-between">
+                            <div class="col-1">
+                                <input type="button" id="back" class="btn btn-primary" value="<<">
+                            </div>
+                            <div class="col-1">
+                                <input type="button" id="next" class="btn btn-primary" value=">>">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
