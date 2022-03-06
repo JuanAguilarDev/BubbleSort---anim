@@ -29,9 +29,9 @@ a{
 }
 
 #buttons-container{
-    position: relative;
-    bottom: -230px;
-    left: -5px;
+    width: 700px;
+    position: absolute;
+    bottom: 40px;
 }
 
 #arr {
@@ -55,5 +55,29 @@ a{
     background-color: #fff;
     border-radius: 20px;
     height: 300px;
+}
+
+#array_elements{
+    margin-top: 105px;
+    list-style: none;
+    overflow: hidden;
+}
+
+#element{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 0 2.5px;
+    background-color: #0083B0;
+    border-radius: 100%;
     
+}
+
+#element > a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    padding: 16px;
+    text-decoration: none;
 }
